@@ -3,7 +3,7 @@
 int main(){
     int sum=0, i, n;
 
-    printf("\nEnter the Number ogf Elements : ");
+    printf("\nEnter the Number of Elements : ");
     scanf("%d",&n);
 
     int A[n];
@@ -12,10 +12,7 @@ int main(){
     for(i=0;i<n;i++){
         printf("\nA[%d] : ",i);
         scanf("%d",&A[i]);
-    }
-
-    for(i=0;i<n;i++){
-        sum += A[i];
+        sum+=A[i];
     }
 
     printf("\nSum of the Array Elements : %d",sum);
